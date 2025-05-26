@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: #adb5bd; */
+    background-color: #cce3de ;
+    overflow-x: hidden;
+}
+
+.home {
+    position: relative;
+}
+
+.navBar,
+.navBarScrol {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-family: "Nunito", serif;
+    background-color: transparent;
+    width: 87%;
+    z-index: 1000;
+}
+
+.navBar span {
+    cursor: pointer;
+}
+
+
+.navBarScrol {
+    z-index: 10000000;
+    color: #231942 ;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100vh;
+}
+
+.navBar img {
+    height: 60px;
+    width: 60px;
+    margin-top: 5px;
+}
+
+.landing .slog {
+    font-family: "Nunito", serif;
+    font-size: 20px;
+    margin: 0 auto;
+    padding-top: 20%;
+    padding-bottom: 5%;
+}
+
+#itechd,
+#getInTuchd {
+    position: fixed;
+    /* color: rgba(210, 209, 209, 0.847); */
+    color: #231942;
+    text-transform: uppercase;
+    font-family: "Quicksand", serif;
+    font-weight: 900;
+    transition: none;
+}
+
+.itech {
+    font-size: 14rem;
+    top: 80%;
+    left: 20%;
+    transform: translate(-10%, -30%);
+}
+
+.aboutUse {
+    position: relative;
+    margin: 0;
+    margin-top: 25vh;
+    height: 120vh;
+    /* Make sure it's large enough to cover the text */
+    width: 100%;
+    background-image: linear-gradient(#cce3de, #6b9080);
+    z-index: 100;
+}
+
+#getInTuchd {
+    font-size: 10rem;
+    top: 0;
+    left: 25%;
+    opacity: 0;
+    transform: translate(-8%, -25%);
+}
+
+.getInTuch {
+    position: relative;
+    margin: 0;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tellAboutTheWork {
+    position: relative;
+    padding: 40px;
+    font-family: "Nunito", serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#biggin {
+    padding-left: 50px;
+}
+
+.someWorks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    height: 60%;
+    padding: 50px;
+}
+
+.work {
+    border-radius: 1rem;
+}
+
+.work a {
+    cursor: pointer;
+}
+
+.work img {
+    opacity: 1;
+    height: 70%;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.resousce {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    height: 80%;
+}
+
+.resousce .contactme {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 100px;
+}
+
+.contactme .cntBtn {
+    margin: 0 auto;
+    height: 50px;
+    width: 500px;
+    border-radius: 3rem;
+    text-align: center;
+    border: 2px solid #00509d;
+    text-transform: capitalize;
+    outline: 0;
+}
+
+.contactme .cntBtn:focus{
+    border: 2px solid #eff7f6;
+}
+
+
+
+.contactme textarea {
+    height: 150px;
+    width: 460px;
+    margin: 5px auto;
+    border-radius: 1rem;
+    border: none;
+    outline: none;
+    overflow-x: hidden;
+    padding: 20px;
+    font-family: "Nunito", serif;
+    border: 2px solid #00509d;
+}
+
+.contactme textarea:focus{
+    border: 2px solid #eff7f6;
+}
+
+.contactme button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    font-size: 1rem;
+    font-family: "Nunito", serif;
+    
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.contactme button:hover {
+    background-color: #00509d;
+    color: aliceblue;
+}
+
+.contactme button img {
+    height: 40px;
+}
+
+.tellAboutTheWork img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.ic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    gap: 50px;
+}
+
+.ic .ic1{
+    height: 50px;
+    width: 50px;
+    border-radius: 1rem;
+    cursor: pointer;
+
+}
+
+.ic svg:hover{
+    color: #5fa8d3  ;
+}
+
+.media{
+    position: relative;
+}
+
+.media .CC{
+    background-color: rgba(252, 212, 137, 0);
+    font-family: "Nunito", serif;
+    position: absolute;
+    bottom: 0;
+    right: 35%;
+}
